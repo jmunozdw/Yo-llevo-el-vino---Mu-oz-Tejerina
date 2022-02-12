@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-color: rgb(204, 204, 151);
+}
+@keyframes un_efecto {
+    0%{ width: 50px; }
+    5s{ width: 75px; }
+    25%{ width: 100px;}
+    50%{ width: 180px;}
+    75%{ width: 100px;}
+    100%{ width: 50px;}
+ }
+ 
+ .logoefec{
+    animation-name: un_efecto;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    transform: rotateZ(0deg);
+
+ }
+.horarios{background-color: yellow;
+padding-bottom: 30px;}
+.tabla{text-align: center;
+transform: translate(358px, 0px);
+}
+.sectioncontacto{ background-image: linear-gradient(to right, #2c63c9, #4b78d2, #668cda, #80a1e2, #9ab6e9);
+color: white;}
+.tablaborde{ font-size: 15px;
+    font-weight: bold;
+    border: 1px solid black;}
+.row{ border: 1px solid black;}
+.tablacontacto{font-weight: bold;
+    color: white;
+    background-image: linear-gradient(to left bottom, #073010, #00342a, #003745, #00365a, #153060);}
+.col-md-6 col-xs-6{ border: 2px solid black;
+}
+
+.row{text-align: center;}
+.productos{padding-top: 30px;
+    padding-bottom: 40px;
+font-family: fantasy;
+    font-size: 20px;
+    color: black}
+
+.nav-link{font-family: fantasy;
+font-size: 25px;}
+.titulo{ font-family: Georgia, 'Times New Roman', Times, serif;
+     color: white;
+    background-image: linear-gradient(to bottom, #100532, #16032b, #190324, #19021d, #170318);}
+    .animate__animated.animate__backInDown{
+        animation-iteration-count: infinite;
+        animation-duration: 3s;
+    }
+.section{background-image: linear-gradient(to top, yellow, red );}
+.atencion{text-align: center;
+    background-image: linear-gradient(to left bottom, #073010, #00342a, #003745, #00365a, #153060);
+transform: translate(0px, 10px);}
+.redesg{text-align: center;
+    padding-bottom: 200px;
+transform: translate(0px,130px);
+}
+.redest{font-size: 35px;}
+.domi{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 19px;
+font-weight: bold ;
+text-align: center;
+transform: translate(0px,10px);
+}
+
+.footer{
+    background-color: rgb(204, 204, 151);
+}
+#cop {font-size: 5px7;
+    font-weight: bold;
+   transform: translate(-20px, 15px);
+}
